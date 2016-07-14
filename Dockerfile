@@ -7,7 +7,7 @@ RUN wget https://github.com/celer/simple-python-websockets-example/archive/maste
 RUN unzip master.zip
 
 RUN pip install 'twisted<16.3.0'
-RUN pip install autobahn
+RUN pip install 'autobahn<0.14.2'
 
 EXPOSE 8080
 
